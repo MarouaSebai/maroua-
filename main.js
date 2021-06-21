@@ -45,15 +45,21 @@ var loveQutes=[ "If I know what love is, it is because of you." ,
 "Love is an untamed force. When we try to control it, it destroys us. When we try to imprison it, it enslaves us. When we try to understand it, it leaves us feeling lost and confused.",
 "Love is so short, forgetting is so long." 
 ]
-function displayQuotes(motivationQuotes,loveQutes){
-	var message=" Your quotes of today is " : 
-	for(var i=0;i<motivationQuotes;i++){
-		message=message+motivationQuotes[i]
-	}
-for (var i=0;i<loveQutes;i++){
-	message=message+loveQutes[i]
-}
-return message
+
+
+var randomElement = function(array){
+	var randomIndex = Math.floor(Math.random()*array.length)
+	return array[randomIndex]
 }
 
-var display = displayQuotes()
+ function displayQuotes (){
+	var quote="You quote for today is : "
+	return quote=quote+' \n ' +randomElement(motivationQuotes)+' \n '+randomElement(loveQutes)
+
+}
+
+$("#display").click(function(){
+
+	var $test = displayQuotes()
+	$(".quoteshere").text($test)
+})

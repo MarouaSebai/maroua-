@@ -1,9 +1,9 @@
  
 		
-h1 {
-	font-variant-ligatures: discretionary-ligatures
-}
 
+#title{
+	font-size: 60px
+}
 
 
 body {
@@ -11,5 +11,27 @@ body {
 background-image: url('https://i.pinimg.com/originals/01/a7/80/01a78061348670364aee54dc3c753d06.jpg')}
 
 p{
-	color: purple
+	color: black
+    
+}
+
+h1{
+	height: 40px
+}
+#call{
+	font-size: 50px
+}
+#come{
+	font-size:50px
+}
+#strat{
+
+}
+
+
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
 }
