@@ -1,32 +1,33 @@
- 
+ /*// famous quotes in 60 px*/
 		
-
 #title{
 	font-size: 60px
 }
 
 
+/*// my background image */
 body {
 
 background-image: url('https://i.pinimg.com/originals/01/a7/80/01a78061348670364aee54dc3c753d06.jpg')}
-
+/*// I choosed black color for my paragraph */
 p{
 	color: black
     
 }
-
+/*// is my  first heading tag that I fixed it for 40 px taille de l'arriere plan */
 h1{
 	height: 40px
 }
+/*// is the id of my "I" that I will give it 50 px as size */
 #call{
 	font-size: 50px
 }
+/*// come is the id of my text "with love" that I will give it 50px as size */
 #come{
 	font-size:50px
 }
-#strat{
 
-}
+/*// size of the quotes that will be displayed*/ 
 .quoteshere {
 	font-size: 30px
 }
