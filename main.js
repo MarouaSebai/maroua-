@@ -46,7 +46,7 @@ var loveQutes=[ "If I know what love is, it is because of you." ,
 "Love is so short, forgetting is so long." 
 ]
 function displayQuotes(motivationQuotes,loveQutes){
-	var message="your quotes of today is : "
+	var message=" Your quotes of today is " : 
 	for(var i=0;i<motivationQuotes;i++){
 		message=message+motivationQuotes[i]
 	}
@@ -55,4 +55,5 @@ for (var i=0;i<loveQutes;i++){
 }
 return message
 }
+
 var display = displayQuotes()
