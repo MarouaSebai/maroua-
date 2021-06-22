@@ -45,18 +45,25 @@ var loveQutes=[ "If I know what love is, it is because of you." ,
 "Love is an untamed force. When we try to control it, it destroys us. When we try to imprison it, it enslaves us. When we try to understand it, it leaves us feeling lost and confused.",
 "Love is so short, forgetting is so long." 
 ]
+//we create function that will give as randomly to element array[randomIndex] from the 2 arrays 
+//Math.floor
 
 
 var randomElement = function(array){
 	var randomIndex = Math.floor(Math.random()*array.length)
 	return array[randomIndex]
 }
-
+// we create a function display to display for as the element randmly choosed by the first function
+// strating by string "your quote for today is"
  function displayQuotes (){
-	var quote="You quote for today is : "
+	var quote="Your quote for today is : "
 	return quote=quote+' \n ' +randomElement(motivationQuotes)+' \n '+randomElement(loveQutes)
 
 }
+// now display is the name of my button which is associated to a building function clik it will work when we 
+//clik on it , by jquery
+// now var test I create a var and i saved in my function displayQuotes
+// quoteshere is my paragraph class where to text will appeare 
 
 $("#display").click(function(){
 

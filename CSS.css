@@ -31,4 +31,9 @@ h1{
 .quoteshere {
 	font-size: 30px
 }
-
+/*// to position the two images together on the screen on the left*/
+.image {
+    float: right;
+    padding-right: 5%;
+    font-size: 30%
+}
