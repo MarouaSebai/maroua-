@@ -1,1 +1,2 @@
 # maroua-
+This project consists of having a website, entitled inspiration quotes in which we find motivational and love quotes as an array in order to provide users with good vibes and a beautiful energy, when they click on the button called get your quotes two random quotes appears, relating the arrays created beforehand by a random function, then we have a display  function to make an element of each array appear at the same time when the user clicks on the button, to perfect the whole work I used "css", "htlm" and "jquery" to give the site a stylish touch.
